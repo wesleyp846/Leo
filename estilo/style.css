@@ -94,7 +94,7 @@ section.imagem > p {
     padding: 10px;
     margin-left: -20px;
     display: inline-block;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 3px black;
 }
 
 /* CSS para telas menores (até 480px de largura) */
@@ -125,7 +125,7 @@ section.imagem > p {
     }
     
     section.imagem > p {
-        width: 150px;
+        width: 180px;
         padding: 5px;
         margin-left: -5px;
         font-size: 0.6em;
@@ -133,11 +133,11 @@ section.imagem > p {
     
     footer {
         padding: 5px;
-        font-size: 0.6em;
+        font-size: 1em;
     }
     
     .footer-container a {
-        font-size: 0.6em;
+        font-size: 1em;
     }
     
     }
