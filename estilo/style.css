@@ -29,6 +29,7 @@ header {
     background-color: var(--corAmarela);
     color: var(--corVermelha);
     text-align: center;
+    border-radius: 0px 0px 10px 10px;
 }
 header>h1 {
     padding-top: 50px;
@@ -59,6 +60,7 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.404);
     background-repeat: no-repeat;
     background-size: 100%;
+    border-radius: 15px;
 }
 section.imagem>p {
     background-color: rgba(0, 0, 0, 0.19);
@@ -67,6 +69,7 @@ section.imagem>p {
     margin-left: -20px;
     display: inline-block;
     text-shadow: 1px 1px 3px black;
+    border-radius: 20px;
 }
 section#img01 {
     background-image: url(../imagens/HamburguerArtesanal3-original.jpeg);
@@ -78,6 +81,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    border-radius: 20px 20px 0px 0px;
 }
 footer a {
     color: var(--corVermelha);
