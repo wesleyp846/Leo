@@ -19,7 +19,7 @@
 }
 html,
 body {
-    background-color: darkgrey;
+    background-color: #2c2c2c;
     min-height: 100vh;
     max-width: 650px;
     margin: auto;
