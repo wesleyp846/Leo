@@ -71,7 +71,12 @@ section.imagem>p {
     text-shadow: 1px 1px 3px black;
     border-radius: 20px;
 }
-section#img01 {
+section#img02 {
+    background-image: url(../imagens/HamburguerArtesanal2-original.jpeg);
+    background-position: right;
+    background-size: 50%;
+}
+section#img03 {
     background-image: url(../imagens/HamburguerArtesanal3-original.jpeg);
     background-position: right;
     background-size: 50%;
