@@ -81,6 +81,11 @@ section#img03 {
     background-position: right;
     background-size: 50%;
 }
+section#img06 {
+    background-image: url(../imagens/artesanalsuino3original.jpeg);
+    background-position: right;
+    background-size: 50%;
+}
 footer {
     background-color: rgba(0, 0, 0, 0.758);
     color: white;
