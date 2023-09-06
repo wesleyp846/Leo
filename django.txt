@@ -1,0 +1,50 @@
+python -m venv env
+.\env\Scripts\activate.ps1
+python.exe -m pip install --upgrade pip
+pip install django
+django-admin startproject nomedoprojeto
+cd nomedoprojeto
+python manage.py startapp main
+python manage.py runserver
+py manage.py migrate 
+
+#Criação do usuario administrador do sistema
+py manage.py createsuperuser
+usuario: adminleonardo
+senha: leonardoisabel
+
+#vscode
+#BL_Lanches/BL_Lanches/settings.py
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'main',            (adicionar)   
+
+#main/models.py
+#toda vez que auterar models tem que fazer o migrate e magratons pra atualizar banco de dados
+from distutils.command.upload import upload
+
+class Category(models.Model):
+    title = models.CharField(max_length=180)
+    image = models.ImageField(upload_to="cat_imgs/")
+    
+
+    def __str__(self):
+        return self.title
+
+#para trabalhar com imagens
+pip install Pillow
+
+#BL_Lanches/main/admin.py
+from.models import Category
+admin.site.register(Category)
+
+
+py manage.py makemigrations
+py manage.py migrate
+
+
+
+
+
+
+
